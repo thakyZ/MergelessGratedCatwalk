@@ -3,6 +3,6 @@ The catwalks only don't merge on the walkable sides of their models.
 
 If they touch on any other side they will still merge the grids, so be careful.
 
-[img]https://github.com/thakyZ/MergelessGratedCatwalk/raw/media/image_02.gif[/img]
+[img]https://thumbs.gfycat.com/TartEmbellishedErne-size_restricted.gif[/img]
 
 [b]Github:[/b] [url=https://github.com/thakyZ/MergelessGratedCatwalk]https://github.com/thakyZ/MergelessGratedCatwalk[/url]
