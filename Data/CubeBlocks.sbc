@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>MergelessCatwalk</SubtypeId>
+      </Id>
+      <DisplayName>Mergeless Grated Catwalk</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\GratedCatwalk.dds</Icon>
+      <Description>Description_GratedCatwalk</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <GuiVisible>false</GuiVisible>
+      <Model>Models\Cubes\Large\GratedCatwalk.mwm</Model>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Components>
+        <Component Subtype="Construction" Count="10"/>
+        <Component Subtype="Girder" Count="4"/>
+        <Component Subtype="SmallTube" Count="20"/>
+        <Component Subtype="Construction" Count="6"/>
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0"/>
+      <MountPoints>
+        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.1"/>
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.1"/>
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GratedCatwalkConstruction_1.mwm"/>
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GratedCatwalkConstruction_2.mwm"/>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GratedCatwalkConstruction_3.mwm"/>
+      </BuildProgressModels>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <HasInventory>false</HasInventory>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <BlockPairName>MergelessCatwalk</BlockPairName>
+      <PCU>1</PCU>
+      <DLC>DecorativeBlocks2</DLC>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>MergelessCatwalkStraight</SubtypeId>
+      </Id>
+      <DisplayName>Mergeless Grated Catwalk Straight</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\GratedCatwalkStraight.dds</Icon>
+      <Description>Description_GratedCatwalkStraight</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <GuiVisible>false</GuiVisible>
+      <Model>Models\Cubes\Large\GratedCatwalkStraight.mwm</Model>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Components>
+        <Component Subtype="Construction" Count="14"/>
+        <Component Subtype="Girder" Count="4"/>
+        <Component Subtype="SmallTube" Count="32"/>
+        <Component Subtype="Construction" Count="10"/>
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0"/>
+      <MountPoints>
+        <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.4"/>
+        <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.4"/>
+        <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GratedCatwalkStraightConstruction_1.mwm"/>
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GratedCatwalkStraightConstruction_2.mwm"/>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GratedCatwalkStraightConstruction_3.mwm"/>
+      </BuildProgressModels>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <HasInventory>false</HasInventory>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <DLC>DecorativeBlocks2</DLC>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+  </CubeBlocks>
+</Definitions>
